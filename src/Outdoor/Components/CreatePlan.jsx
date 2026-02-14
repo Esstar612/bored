@@ -12,7 +12,7 @@ const CreatePlan = ({ data }) => {
 
     const destinations = Object.values(data).map(items => items[0].location);
 
-    axios.get(`https://corsproxy.io/?https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=${origin}&destinations=${destinations.join('|')}&key=AIzaSyAGQeJGCW-4BPUqNDSlVcK88Eb5JGIYUSs`)
+    axios.get(`https://corsproxy.io/?https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=${origin}&destinations=${destinations.join('|')}&key=REACT_APP_GOOGLE_MAPS_API_KEY`)
       .then(response => {
         const results = response.data.rows[0].elements;
         setDistanceInfo(results);
