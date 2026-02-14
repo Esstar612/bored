@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+    overflow-y: scroll;
+    background-image: url('./images/plane_wallpaper.png');
+    background-size: cover;
+}
+
+body {
+  background-image: url('./images/plane_wallpaper.png');
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    row-gap: 25px;
+    align-items: center;
+    justify-items: center;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+
+.split {
+    height: 100%;
+    width: 60%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    padding-top: 10px;
+}
+
+.left {
+    left: 0;
+    width: 55%;
+    float: left;
+    margin-top: 35px;
+}
+
+.right {
+    right: 0;
+    width: 45%;
+    float: right;
+    margin-top: 20px;
+}
+
+.text {
+    margin-top: 20px;
+    text-align: center;
+}

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+    overflow-y: scroll;
+    background-image: url('./plane_wallpaper.png');
+    background-size: cover;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    row-gap: 25px;
+    align-items: center;
+    justify-items: center;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+
+.split {
+    height: 100%;
+    width: 60%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    padding-top: 10px;
+}
+
+.left {
+    left: 0;
+    width: 55%;
+    float: left;
+    margin-top: 35px;
+}
+
+.right {
+    right: 0;
+    width: 45%;
+    float: right;
+    margin-top: 20px;
+}
+
+.text {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Content.css */  
+  .conversation {
+    flex-grow: 1; 
+    padding: 10px; 
+    overflow-y: auto; 
+  }
+  
+  .message {
+    width: 335px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 70%;
+  }
+  
+  .message.user {
+    background-color: rgb(26, 128, 229); 
+    color: white;
+    align-self: flex-start; 
+    display: flex;
+  }
+  
+  .message.user .avatar {
+    background-image: url('./user.jpg');
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+  
+  .message.ai {
+    background-color: rgb(255, 255, 255); 
+    color: black;
+    align-self: flex-start;
+  }
+  
+  .message.ai .avatar {
+    background-image: url('./location.png'); 
+    margin-right: 0px; 
+  }
+  
+  .avatar {
+    width: 50px; 
+    height: 50px; 
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%; 
+    flex-shrink: 0;
+  }
+  
+  .avatarLoading {
+   background-image: url('./location.png');
+   width: 40px; 
+    height: 40px; 
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%; 
+    flex-shrink: 0;
+    margin-right: 30px;
+  }
+
+  .conversation {
+    width: 100%; 
+  }

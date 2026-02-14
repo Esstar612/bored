@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a4e4ce20.css",
+    "main.js": "/static/js/main.de2e7d76.js",
+    "static/media/plane_wallpaper.png": "/static/media/plane_wallpaper.c18e06cadd29b507c03a.png",
+    "static/media/food1.jpeg": "/static/media/food1.3db02cc6b74e390c5060.jpeg",
+    "static/media/shopping1.jpeg": "/static/media/shopping1.689bdbcc043c7a4143a5.jpeg",
+    "static/media/tour1.jpeg": "/static/media/tour1.9b4cad5d4ca52f31a1c0.jpeg",
+    "static/media/activities1.png": "/static/media/activities1.4ac8d4b2ab9d15fd0234.png",
+    "static/media/movie.jpg": "/static/media/movie.819e083ccfb53569d630.jpg",
+    "static/media/tv.png": "/static/media/tv.ea9ba8ab585b0c2dbc4b.png",
+    "static/media/concert.webp": "/static/media/concert.c6eb2e6d94aef94a6629.webp",
+    "static/media/games.jpg": "/static/media/games.6f40f8b470f38c43fd75.jpg",
+    "static/media/random.png": "/static/media/random.4ba41e04e4e00fea9218.png",
+    "static/media/trivia.jpg": "/static/media/trivia.c17d21f7201ec6b10831.jpg",
+    "static/media/attractions1.jpeg": "/static/media/attractions1.e857475a664487b6e4bf.jpeg",
+    "static/media/user.jpg": "/static/media/user.204ea5f9aa92c210aabe.jpg",
+    "static/media/location.png": "/static/media/location.347c4232bca70cbe86ad.png",
+    "static/media/spotify.jpg": "/static/media/spotify.897c79e549f0be94d787.jpg",
+    "index.html": "/index.html",
+    "main.a4e4ce20.css.map": "/static/css/main.a4e4ce20.css.map",
+    "main.de2e7d76.js.map": "/static/js/main.de2e7d76.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4e4ce20.css",
+    "static/js/main.de2e7d76.js"
+  ]
+}

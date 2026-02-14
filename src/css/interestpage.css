@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #333;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+h1 {
+    color: #33e5dc;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.interests {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.interest-btn {
+    padding: 10px 20px;
+    width: 150px; /* Fixed width */
+    height: 40px; /* Fixed height */
+    background-color: #33e5dc;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.interest-btn:hover {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #33e5dc; /* Add border when hovering */
+}
+
+.continue-container {
+    margin-top: 20px;
+    text-align: center; /* Center the button */
+}
+
+button#continue-btn {
+    padding: 12px 24px;
+    background-color: #33e5dc;
+    border: 6px solid #33e5dc;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+button#continue-btn:hover {
+    background-color: #fff;
+    color: #007bff;
+    border-color: #007bff;
+}

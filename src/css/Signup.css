@@ -1,0 +1,173 @@
+/*body {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    font-family: 'Comic Sans MS', 'Arial', sans-serif;*/
+/*    !* background-image: url('background.jpg'); Background image *!*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    height: 100vh;*/
+/*}*/
+
+/*.container {*/
+/*    width: 350px;*/
+/*    background-color: rgba(255, 255, 255, 0.9); !* White container background with slight transparency *!*/
+/*    padding: 40px;*/
+/*    border-radius: 20px;*/
+/*    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);*/
+/*    text-align: center;*/
+/*}*/
+
+/*h1 {*/
+/*    color: #ff6f61; !* Fun pink color *!*/
+/*    font-size: 2.5em;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+/*.form-group {*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+/*label {*/
+/*    display: block;*/
+/*    margin-bottom: 5px;*/
+/*    color: #333;*/
+/*    font-size: 1.2em;*/
+/*}*/
+
+/*input[type="text"],*/
+/*input[type="email"],*/
+/*input[type="tel"],*/
+/*input[type="password"] {*/
+/*    width: 100%;*/
+/*    padding: 10px;*/
+/*    border: 1px solid #ccc;*/
+/*    border-radius: 30px;*/
+/*    font-size: 1.1em;*/
+/*}*/
+
+/*button {*/
+/*    width: 100%;*/
+/*    padding: 12px;*/
+/*    background-color: #ff6f61; !* Fun pink color *!*/
+/*    border: none;*/
+/*    border-radius: 30px;*/
+/*    color: #fff;*/
+/*    font-size: 1.2em;*/
+/*    cursor: pointer;*/
+/*    transition: background-color 0.3s;*/
+/*}*/
+
+
+/*.login-link {*/
+/*    font-size: 1.1em;*/
+/*    color: #333;*/
+/*    margin-top: 20px;*/
+/*}*/
+
+/*.login-link a {*/
+/*    color: #ff6f61; !* Fun pink color *!*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.login-link a:hover {*/
+/*    text-decoration: underline;*/
+/*}*/
+
+/*Star added css*/
+
+/* Register.css */
+.register-container {
+    width: 100%;
+    max-width: 400px; /* Adjust this to match the width of your form */
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    /* Add this to give space around the container, particularly at smaller screen heights */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.register-container input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 22px); /* Adjust input width */
+}
+
+.register-container button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Use a color that suits your design */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px; /* Space above the button */
+}
+
+.register-container button:hover {
+    background-color: #0056b3; /* Darker shade for hover state */
+}
+
+/* Placeholder styling */
+.register-container input::placeholder {
+    color: #888;
+}
+
+/* Input focus styling */
+.register-container input:focus {
+    outline: none;
+    border-color: #007bff; /* Highlight color when input is focused */
+}
+
+/* If you want to style the date picker input separately */
+.register-container input[type="date"] {
+    cursor: pointer;
+}
+
+/* Additional styling for error messages, if you add them later */
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+}
+
+/* Styling for Profile Image URL input if you want it to look different */
+.register-container input[name="profileImageUrl"] {
+    background: #f8f8f8; /* Different background to indicate optional */
+}
+
+/* Styles for form labels */
+.register-container label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 15px; /* Spacing above the label */
+    font-weight: 600; /* Makes the label text a little bolder */
+    font-size: 14px; /* Adjust font size as needed */
+    color: #333; /* Label text color */
+}
+
+/* Adjustments for date label to indicate the format */
+.date-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px; /* Smaller font size for the format helper text */
+    color: #666; /* Lighter text color for the format helper text */
+    margin-top: 20px; /* Increase spacing above the label */
+}
+
+.date-label span {
+    color: #888; /* Even lighter color for helper text */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .register-container {
+        width: 90%;
+    }
+}
